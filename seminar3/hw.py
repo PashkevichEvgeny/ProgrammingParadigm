@@ -32,7 +32,7 @@ def print_matrix(matrix):
 
 
 def enter_coord(matrix):
-    coord = input("Введете координаты квадрата от 1-1 до 3-3: ")
+    coord = input("Введете координаты квадрата от 1-1 до 3-3 или q для завершения: ")
     if coord == 'q':
         print('Game over!')
         exit()
